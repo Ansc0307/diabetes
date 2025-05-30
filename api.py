@@ -7,12 +7,12 @@ app = Flask(__name__)
 CORS(app)
 
 # Cargar modelo y escalador
-modelo = joblib.load('modelo_obesidad.pkl')
+modelo = joblib.load('modelo_dia.pkl')
 escalador = joblib.load('escalador.pkl')
 
 @app.route('/', methods=['GET'])
 def index():
-    return jsonify({"mensaje": "API de predicción de obesidad"})
+    return jsonify({"mensaje": "API de predicción de diabetes"})
 
 @app.route('/predict', methods=['POST'])
 def predict():
