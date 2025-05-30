@@ -8,7 +8,7 @@ CORS(app)
 
 # Cargar modelo y escalador
 modelo = joblib.load('modelo_dia.pkl')
-escalador = joblib.load('escalador.pkl')
+escalador = joblib.load('escalador1.pkl')
 
 @app.route('/', methods=['GET'])
 def index():
