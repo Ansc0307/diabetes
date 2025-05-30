@@ -6,7 +6,7 @@ Esta API recibe datos desde una app Flutter y devuelve la predicción del modelo
 ### Archivos incluidos:
 - `api.py`: Código de la API.
 - `requirements.txt`: Librerías necesarias.
-- `modelo_obesidad.pkl`: Tu modelo entrenado.
+- `modelo_dia.pkl`: Tu modelo entrenado.
 - `escalador.pkl`: Escalador usado en el preprocesamiento.
 
 ### ¿Cómo desplegarlo en Render?
